@@ -12,7 +12,6 @@ var Home = React.createClass({
 		)
 	},
 
-			// When component mounts, get the data and set the state of "quotes"
 	componentDidMount:function(){
 		$.get('data/dance.csv').then(function(data) {
 			var parsed = Baby.parse(data, {header:true});

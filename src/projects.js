@@ -16,7 +16,6 @@ var Projects = React.createClass({
 		)
 	},
 
-			// When component mounts, get the data and set the state of "quotes"
 	componentDidMount:function(){
 		$.get('data/work.csv').then(function(data) {
 			var parsed = Baby.parse(data, {header:true});
@@ -24,7 +23,6 @@ var Projects = React.createClass({
 		}.bind(this));
 	},
 
-			// Render a <Quote> element for each element in the state
 	render() {
 		return (
 			<MuiThemeProvider>

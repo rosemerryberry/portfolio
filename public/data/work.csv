@@ -1,0 +1,6 @@
+name,url,date,label,img,desc
+Map,http://students.washington.edu/adamsrc/info/343/a3-mapping-rosemerryberry/,10/20/2016,school,photos/map2.jpg,A site featuring an interactive map that displays the number of people injured and killed during 2016 mass shooting events.
+Tweeter,students.washington.edu/adamsrc/info/343/a4-firebase-rosemerryberry/,11/1/2016,school,photos/tweeter.jpg,"A site that allows users to log on and post ""chirps"", or small bytes of text, and like other users posts."
+Mixtape,http://students.washington.edu/adamsrc/info/343/a5-spotify-rosemerryberry/,11/15/2016,school,photos/mixtape.jpg,"A site that compiles a playlist for the user based on a messsage, with each song containing a word from the message."
+"Income, Crime, and Education",https://bkellogg.shinyapps.io/Group-Project/,3/15/2016,school,photos/books1.jpg,"A data-driven site that shows the relationship between income, education, and crime on a state and national level."
+Brain Networking,http://johanneslederer.com/,11/10/2016,research,photos/smelly.jpg,"My research site, where our work building statistical software is showcased. We are currently building a program to analyze brain networks."

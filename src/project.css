@@ -1,0 +1,45 @@
+/*.card{
+	width:500px;
+	height:300px;
+
+	
+}
+*/
+.container {
+	background: url("/photos/angsty_ocean.jpg") no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+ 	 background-size: cover;
+ 	 min-height: 2000px;
+}
+
+.projectPage {
+	padding-top:50px;
+	padding-left:100px;
+	padding-right:100px;
+}
+
+.cards{
+	margin-bottom: 25px;
+	max-width:300px;
+	max-height: 400px;
+	display:inline-block;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+.media{
+	display:none;
+}
+
+.project {
+	-webkit-animation-duration: 5s;
+	-webkit-animation-delay: 5s;
+}
+
+@media (min-width: 500px) {
+    .media{
+    	display:inline-block;
+    }
+}

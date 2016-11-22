@@ -1,0 +1,100 @@
+.photos {
+  /* Prevent vertical gaps */
+  line-height: 0;
+  margin:auto;
+
+   
+  -webkit-column-count: 4;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    5;
+  -moz-column-gap:      0px;
+  column-count:         4;
+  column-gap:           0px;  
+}
+
+.photos img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+}
+
+.eventCard{
+	margin-bottom:30px;
+	position:relative;
+	height:180px;
+	margin-left:100px;
+	margin-right:100px;
+	color:white;
+	padding-top:30px;
+}
+
+.title{
+	margin-left:100px;
+	color:white;
+	margin-top:0;
+}
+
+.eventImage{
+	display:inline-block;
+	float:left;
+	position:absolute;
+}
+
+
+.eventImage>img{
+	height:180px;
+	width:200px;
+}
+
+.eventInfo{
+	display:inline-block;
+	position:absolute;
+	margin-left:225px;
+}
+
+.eventDate{
+	display:none;
+}
+
+.eventDesc{
+	display:none;
+}
+
+.dancePage {
+	background: url("/photos/angsty_ocean.jpg") no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+ 	 background-size: cover;
+ 	 min-height: 2000px;
+}
+
+.eventName>a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+.eventName>a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.dancePage>h1{
+	color:white;
+	margin:auto;
+	text-align:center;
+	margin-right:100px;
+	margin-left:100px;
+	padding-top:20px;
+}
+
+@media (min-width: 768px) {
+    .eventDate{
+    	display:inline;
+    }
+
+    .eventDesc{
+    	display:inline;
+    }
+}

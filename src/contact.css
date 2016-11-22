@@ -1,0 +1,60 @@
+.contact{
+	background: url("/photos/angsty_ocean.jpg") no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+ 	 background-size: cover;
+ 	 min-height: 2000px;
+ 	 color:white;
+}
+
+.title {
+	padding-top: 15%;
+	margin: auto;
+	text-align: center;
+	width:50%;
+}
+
+.title {
+	-webkit-animation-duration: 5s;
+	-webkit-animation-delay:;
+}
+
+.icons{
+	margin:auto;
+	text-align: center;
+}
+
+.fa{
+	padding-right:8px;
+	padding-left:8px;
+}
+
+.animated .fa-facebook {
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay:3s;
+}
+
+.animated .fa-github {
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay:3.5s;
+}
+
+.animated .fa-linkedin {
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay:4s;
+}
+
+.animated .fa-codepen {
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay:4.5s;
+}
+
+.animated .fa-envelope {
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay:5s;
+}
+
+.icons>a:visited {
+    color: white;
+}

@@ -1,6 +1,6 @@
 This application is Rosemary's portfolio! Employers might check this out to see the work I have done in the past.
 
-The URL of this project on my student web-server is students.washington.edu/adamsrc/info/343/portfolio
+The URL of this project on github pages is http://rosemerryberry.github.io/portfolio
 
 I didn't recieve help from others.
 
